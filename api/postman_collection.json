@@ -1,0 +1,87 @@
+{
+  "info": {
+    "name": "TDP AI & ML API",
+    "description": "Postman collection for the beginner-friendly TDP AI, ML, GenAI, and LangGraph APIs built with FastAPI.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. Root - Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            ""
+          ]
+        },
+        "description": "Returns a welcome message and confirms the API is running."
+      },
+      "response": []
+    },
+    {
+      "name": "2. Machine Learning - Predict",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/ml/predict",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "ml",
+            "predict"
+          ]
+        },
+        "description": "A sample endpoint that returns a mock Machine Learning prediction using Linear Regression."
+      },
+      "response": []
+    },
+    {
+      "name": "3. Generative AI - Ask/RAG",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/genai/ask?query=What is LangGraph?",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "genai",
+            "ask"
+          ],
+          "query": [
+            {
+              "key": "query",
+              "value": "What is LangGraph?",
+              "description": "The question you want to ask the Generative AI model."
+            }
+          ]
+        },
+        "description": "A sample endpoint to interact with the GenAI/RAG pipeline. Pass your question as a query parameter."
+      },
+      "response": []
+    }
+  ]
+}
