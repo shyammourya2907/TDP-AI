@@ -1,0 +1,5 @@
+{"instruction": "What is machine learning?", "input": "", "output": "Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy."}
+{"instruction": "Explain what a neural network is.", "input": "", "output": "A neural network is a method in artificial intelligence that teaches computers to process data in a way that is inspired by the human brain. It is a type of machine learning process, called deep learning, that uses interconnected nodes or neurons in a layered structure that resembles the human brain."}
+{"instruction": "Write a python script to print hello world.", "input": "", "output": "```python\nprint('Hello, World!')\n```"}
+{"instruction": "What is the capital of France?", "input": "", "output": "The capital of France is Paris."}
+{"instruction": "Summarize the concept of overfitting.", "input": "", "output": "Overfitting occurs when a machine learning model learns the training data too well, capturing noise and details that do not generalize to new, unseen data, leading to poor performance on test sets."}
